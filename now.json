@@ -1,9 +1,4 @@
 {
-    "name": "vk test",
-    "version": 2,
-    "builds": [
-        { "src": "app.js", "use": "@now/node-server" },
-        { "src": "*.html", "use": "@now/static" },
-        { "src": "*.css", "use": "@now/static" }
-    ]
+  "version": 2,
+  "builds": [{ "src": "*/index.js", "use": "@now/node-server" }]
 }
